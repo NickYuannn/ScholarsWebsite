@@ -1,0 +1,18 @@
+.button-container {
+  height: 50px;
+  width: 150px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: lightgrey;
+  font-family: cursive;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.button-container:hover {
+  transition: all 0.2s ease-in;
+  background-color: gray;
+}
