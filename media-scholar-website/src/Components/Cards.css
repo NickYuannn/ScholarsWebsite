@@ -1,0 +1,11 @@
+.cards h1 {
+  font-size: 50px;
+}
+.cards {
+  height: 100vw;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-direction: row;
+}

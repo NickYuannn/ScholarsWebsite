@@ -1,0 +1,39 @@
+.card {
+  transition: all 0.2s ease;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Aligns content horizontally */
+  justify-content: center; /* Aligns content vertically (center) */
+  height: 200px;
+  width: 200px;
+}
+.card:hover {
+  transition: all 0.2s ease;
+  box-shadow: 5px 5px 5px lightblue;
+}
+.card .card-image {
+  max-width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.card .card-title {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  color: hsl(0, 0%, 20%);
+}
+
+.card .card-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: rgb(230, 160, 32);
+}

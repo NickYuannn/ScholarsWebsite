@@ -1,6 +1,7 @@
 import React from "react";
-import Hero from "../../Hero";
+import Hero from "../Hero";
 import "./Home.css";
+import Footer from "../Footer";
 
 function Home() {
   return (
@@ -31,6 +32,7 @@ function Home() {
           around and see the interesting tasks I have done.
         </p>
       </div>
+      <Footer/>
     </div>
   );
 }

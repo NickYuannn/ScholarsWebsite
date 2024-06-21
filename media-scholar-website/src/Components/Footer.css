@@ -1,0 +1,50 @@
+.footer-container {
+  color: white;
+  background: lightblue;
+  height: auto;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding-top: 10px;
+  transition: all ease 0.2s;
+}
+
+.umd-icons {
+  padding-left: 100px;
+  margin-right: 10px;
+}
+
+.umd-icons img {
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.umd-icons img:hover {
+  transition: all ease 0.2s;
+  border: gold solid 0.5px;
+}
+
+.contact-links h3 {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 40px;
+}
+
+.contact-links a:hover{
+  transition: all 0.2s ease;
+  color: lightgrey;
+}
+
+.contact-links a{
+  color: white;
+}
+.copyright-text {
+  font-weight: bold;
+}
