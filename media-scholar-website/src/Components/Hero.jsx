@@ -5,7 +5,7 @@ function Hero(props) {
   return (
     <div className="hero-container">
       <img src={props.imgName} />
-      <h1>Who Am I?</h1>
+      <h1>{props.text}</h1>
     </div>
   );
 }

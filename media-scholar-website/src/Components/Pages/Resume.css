@@ -1,0 +1,11 @@
+.resume-container {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.resume-container hr {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}

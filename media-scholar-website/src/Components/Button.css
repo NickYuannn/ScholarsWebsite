@@ -1,10 +1,10 @@
 .button-container {
   height: 50px;
   width: 150px;
-  border: none;
+  border: solid white 2px;
   outline: none;
   border-radius: 10px;
-  background-color: lightgrey;
+  background-color: transparent;
   font-family: cursive;
   font-weight: bold;
   color: white;
@@ -14,5 +14,6 @@
 
 .button-container:hover {
   transition: all 0.2s ease-in;
-  background-color: gray;
+  background-color: white;
+  color: lightblue;
 }

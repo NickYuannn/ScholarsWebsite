@@ -1,5 +1,15 @@
 .cards h1 {
-  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+  color: lightblue;
+}
+
+.cards h3 {
+  color: lightblue;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
 }
 .cards {
   height: 100vw;
@@ -8,4 +18,5 @@
 .cards-wrapper {
   display: flex;
   flex-direction: row;
+  text-decoration: none;
 }

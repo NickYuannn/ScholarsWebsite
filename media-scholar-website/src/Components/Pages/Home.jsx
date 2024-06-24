@@ -6,7 +6,7 @@ import Footer from "../Footer";
 function Home() {
   return (
     <div>
-      <Hero imgName="/LinkedInProfilePic.JPG"/>
+      <Hero text="Who Am I?" imgName="/LinkedInProfilePic.JPG"/>
       <div className="text-container">
         <h1> Hi, I am Nick Yuan</h1>
         <p>
