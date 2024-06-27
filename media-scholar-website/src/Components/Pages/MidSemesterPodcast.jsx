@@ -7,7 +7,7 @@ function MidSemesterPodcast() {
     <div>
       <AssignmentVideos
         header="Mid Semester Podcast"
-        url="/assignments/CPMS Podcast.mp4"
+        url="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
       />
       <Footer />
     </div>

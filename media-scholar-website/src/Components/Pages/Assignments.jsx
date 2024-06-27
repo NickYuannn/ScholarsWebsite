@@ -4,7 +4,7 @@ import Cards from "../Cards";
 
 function Assignments() {
   return (
-    <div>
+    <div className="assignment-container">
       <Cards />
       <Footer />
     </div>

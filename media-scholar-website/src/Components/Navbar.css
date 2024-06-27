@@ -25,6 +25,13 @@
 }
 
 .navbar-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(25%, 50%);
+}
+
+.navbar-logo {
   color: #fff;
   justify-self: start;
   margin-left: 20px;
@@ -74,6 +81,48 @@
 }
 
 .menu-icon {
-  display: flex;
-  font: 200;
+  display: none;
+  color: white;
+}
+
+@media screen and (max-width: 960px) {
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 999;
+  }
+
+  .navbar h1{
+    font-size: 1.8rem;
+  }
+
+  .nav-item {
+    width: 100%;
+  }
+  .nav-menu.active {
+    background: #baebec;
+    left: 0;
+    bottom: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
 }

@@ -25,3 +25,9 @@
   margin-top: -100px;
   text-shadow: 5px 5px black;
 }
+
+@media screen and (max-width: 960px) {
+  .hero-container > h1 {
+    font-size: 1.8rem;
+  }
+}

@@ -13,10 +13,24 @@
 }
 .cards {
   height: 100vw;
+  width: 100%;
 }
 
-.cards-wrapper {
-  display: flex;
-  flex-direction: row;
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+
+  justify-content: center;
   text-decoration: none;
+  width: 100%;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }

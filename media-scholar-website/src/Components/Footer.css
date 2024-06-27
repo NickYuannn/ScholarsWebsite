@@ -2,49 +2,84 @@
   color: white;
   background: lightblue;
   height: auto;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+
   font-size: 1.2rem;
   position: sticky;
   top: 0;
   z-index: 999;
   padding-top: 10px;
   transition: all ease 0.2s;
+
+  margin-top: auto;
+  padding-bottom: 20px;
 }
 
-.umd-icons {
-  padding-left: 100px;
-  margin-right: 10px;
+.footer-container h1 {
+  font-size: 50px;
 }
 
-.umd-icons img {
+.umd-icons > a > img {
+  width: auto;
   height: 50px;
-  width: 150px;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-right: 10px;
 }
-
-.umd-icons img:hover {
-  transition: all ease 0.2s;
-  border: gold solid 0.5px;
+.umd-icons > a > img:hover {
+  border: solid gold 1px;
+  margin-right: 9px;
 }
 
-.contact-links h3 {
-  display: inline-block;
-  vertical-align: middle;
-  margin: 40px;
-}
+.contact-links > a {
+  margin-top: 10px;
+  margin-top: 10px;
 
-.contact-links a:hover{
-  transition: all 0.2s ease;
-  color: gold;
-}
-
-.contact-links a{
   color: white;
+  text-decoration: none;
+  margin-right: 50px;
 }
+
+.contact-links > a:hover {
+  color: #FFD324;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .copyright-text {
   font-weight: bold;
+}
+@media screen and (max-width: 960px) {
+  .footer-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 0;
+  }
+
+  .umd-icons > a > img {
+    width: auto;
+    height: 20px;
+    border-radius: 5px;
+    margin-right: 0px;
+    display: none;
+  }
+
+  .footer-container h1 {
+    font-size: 20px;
+  }
+
+  .contact-links h3 {
+    font-size: 10px;
+  }
 }

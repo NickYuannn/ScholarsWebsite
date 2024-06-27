@@ -8,7 +8,7 @@ function Cards() {
       <h1>Check Out What I've Done</h1>
       <h3>In CPMS</h3>
       <div className="cards-container">
-        <div className="cards-wrapper">
+
           <CardItems
             src="/assignments/mediaconnect12023.PNG"
             text="Media Connect 1"
@@ -37,7 +37,6 @@ function Cards() {
             text="3 Things for Freshman to Know"
             path="/three-tips-for-freshman"
           />
-        </div>
       </div>
     </div>
   );
